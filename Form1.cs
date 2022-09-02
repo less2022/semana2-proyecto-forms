@@ -16,5 +16,12 @@ namespace semana2_proyecto_forms
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Visible = true;
+            label1.Text = "LESLY CAROLINA BERMUDEZ MEMBREÑO USSS017722";
+
+        }
     }
 }
